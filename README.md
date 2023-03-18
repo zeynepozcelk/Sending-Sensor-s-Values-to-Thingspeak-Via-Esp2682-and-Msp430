@@ -19,6 +19,5 @@ The MSP430 reads data from the DHT11 sensor and sends it to the ESP8266 module v
 6. Compile and upload the code to the MSP430 microcontroller.
 ## Code
 The code for this project is written in C language and can be found in the main.c file. The code initializes the UART communication between the MSP430 and ESP8266 modules and reads data from the DHT11 sensor. The code then sends an HTTP request to the ThingSpeak API to upload the data to a specified channel.
-
 ## Conclusion
 This project demonstrates how to send data from a sensor to the ThingSpeak platform using an ESP8266 and MSP430 microcontroller. By following the steps outlined above, you can replicate this project and customize it to suit your needs.
